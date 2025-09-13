@@ -43,7 +43,7 @@ Below is a description of the data used in this project:
 | Raw PAN data file(s) | CSV / Excel (.csv, .xlsx) | 10000 | Contains PAN number strings, perhaps user details or associated metadata |
 | Cleaned / Processed Data | CSV / SQL dump / Notebook output | 3193,5832,975 | Only validated PANs, invalid PANs flagged, removed or corrected entries |
 | Jupyter Notebook | .ipynb | — | All analysis steps: import, cleaning, validation, EDA, visualisations |
-| SQL output (if any) | .sql / database dump | — | Summary tables, invalid entries etc. |
+| SQL output | .sql / database dump | — | Summary tables, invalid entries etc. |
 
 **PAN Format as per rules:**
 
