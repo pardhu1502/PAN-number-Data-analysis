@@ -8,12 +8,7 @@
 - [Problem Statement](#problem-statement)  
 - [Technologies Used](#technologies-used)  
 - [Folder / File Structure](#folder--file-structure)  
-- [Methodology](#methodology)  
-- [Results](#results)  
-- [How to Run / Reproduce](#how-to-run--reproduce)  
-- [Future Work](#future-work)  
-- [License](#license)  
-- [Contact](#contact)
+
 
 ---
 
@@ -45,8 +40,8 @@ Below is a description of the data used in this project:
 
 | Name | Format | Number of Records | Key Attributes |
 |------|--------|--------------------|------------------|
-| Raw PAN data file(s) | CSV / Excel (.csv, .xlsx) | *[you fill]* | Contains PAN number strings, perhaps user details or associated metadata (e.g. name, date, source) |
-| Cleaned / Processed Data | CSV / SQL dump / Notebook output | *[you fill]* | Only validated PANs, invalid PANs flagged, removed or corrected entries |
+| Raw PAN data file(s) | CSV / Excel (.csv, .xlsx) | 10000 | Contains PAN number strings, perhaps user details or associated metadata |
+| Cleaned / Processed Data | CSV / SQL dump / Notebook output | 3193,5832,975 | Only validated PANs, invalid PANs flagged, removed or corrected entries |
 | Jupyter Notebook | .ipynb | — | All analysis steps: import, cleaning, validation, EDA, visualisations |
 | SQL output (if any) | .sql / database dump | — | Summary tables, invalid entries etc. |
 
@@ -76,8 +71,7 @@ Below is a description of the data used in this project:
 - **NumPy** — for basic numerical operations.  
 - **Regular Expressions (regex)** — for validating PAN format.  
 - **Jupyter Notebook** — interactive analysis, code + visualisations.  
-- **Matplotlib / Seaborn** (or any plotting library you used) — for visuals.  
-- Possibly **SQL** if you stored or exported results into a database.  
+- **pgSQL** if you stored or exported results into a database.  
 
 ---
 
